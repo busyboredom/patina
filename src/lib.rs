@@ -9,8 +9,6 @@ pub mod taxes;
 pub mod transport;
 
 pub struct Budget {
-    pub income: f64,
-    pub age: i32,
     pub food_params: food::FoodParameters,
     pub healthcare_params: healthcare::HealthcareParameters,
     pub housing_params: housing::HousingParameters,
@@ -21,7 +19,7 @@ pub struct Budget {
 }
 
 impl Budget {
-    pub fn new (income: f64, age: i32) -> Budget {
+    pub fn new () -> Budget {
         let food_params = food::FoodParameters::new();
         let healthcare_params = healthcare::HealthcareParameters::new();
         let housing_params = housing::HousingParameters::new();
@@ -29,9 +27,8 @@ impl Budget {
         let tax_params = taxes::TaxParameters::new();
         let transport_params = transport::TransportParameters::new();
         let income_params = income::IncomeParameters::new();
+        
         Budget {
-            income,
-            age,
             food_params,
             healthcare_params,
             housing_params,
@@ -40,5 +37,11 @@ impl Budget {
             transport_params,
             income_params,
         }
+    }
+}
+
+impl Default for Budget {
+    fn default() -> Self {
+        Budget::new()
     }
 }
