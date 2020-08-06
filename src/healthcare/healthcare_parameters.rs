@@ -1,6 +1,4 @@
-pub struct HealthcareParameters {
-
-}
+pub struct HealthcareParameters {}
 
 impl HealthcareParameters {
     pub fn new() -> HealthcareParameters {

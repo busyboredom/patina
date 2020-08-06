@@ -1,6 +1,4 @@
-pub struct TaxParameters {
-
-}
+pub struct TaxParameters {}
 
 impl TaxParameters {
     pub fn new() -> TaxParameters {

@@ -1,6 +1,4 @@
-pub struct HousingParameters {
-
-}
+pub struct HousingParameters {}
 
 impl HousingParameters {
     pub fn new() -> HousingParameters {

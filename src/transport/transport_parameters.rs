@@ -1,6 +1,4 @@
-pub struct TransportParameters {
-
-}
+pub struct TransportParameters {}
 
 impl TransportParameters {
     pub fn new() -> TransportParameters {

@@ -4,9 +4,7 @@ pub struct IncomeParameters {
 
 impl IncomeParameters {
     pub fn new() -> IncomeParameters {
-        IncomeParameters {
-            salary: 34_000.00,
-        }
+        IncomeParameters { salary: 34_000.00 }
     }
 }
 

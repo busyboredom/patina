@@ -4,9 +4,7 @@ pub struct MiscParameters {
 
 impl MiscParameters {
     pub fn new() -> MiscParameters {
-        MiscParameters {
-            age: 30,
-        }
+        MiscParameters { age: 30 }
     }
 }
 

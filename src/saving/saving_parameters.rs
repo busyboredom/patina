@@ -1,6 +1,4 @@
-pub struct SavingParameters {
-
-}
+pub struct SavingParameters {}
 
 impl SavingParameters {
     pub fn new() -> SavingParameters {
@@ -8,8 +6,8 @@ impl SavingParameters {
     }
 }
 
-impl Default for SavingParameters { 
-    fn default() -> Self{
+impl Default for SavingParameters {
+    fn default() -> Self {
         SavingParameters::new()
     }
 }

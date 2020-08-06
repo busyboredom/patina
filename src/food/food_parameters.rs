@@ -1,6 +1,4 @@
-pub struct FoodParameters {
-
-}
+pub struct FoodParameters {}
 
 impl FoodParameters {
     pub fn new() -> FoodParameters {

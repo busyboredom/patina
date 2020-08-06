@@ -1,6 +1,4 @@
-pub struct LeisureParameters {
-
-}
+pub struct LeisureParameters {}
 
 impl LeisureParameters {
     pub fn new() -> LeisureParameters {
