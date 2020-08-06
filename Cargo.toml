@@ -1,0 +1,15 @@
+[package]
+name = "patina"
+version = "0.1.0"
+authors = ["Charlie Wilkin", "Vennila Pugazhenth"]
+edition = "2018"
+documentation = "A swiss-army knife for personal finance"
+readme = "README.md"
+repository = "https://github.com/busyboredom/patina"
+license = "MIT"
+keywords = ["finance", "financial", "retirement", "taxes"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
