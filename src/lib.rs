@@ -16,6 +16,8 @@ pub struct Budget {
     pub housing_params: housing::HousingParameters,
     pub misc_params: misc::MiscParameters,
     pub tax_params: taxes::TaxParameters,
+    pub transport_params: transport::TransportParameters,
+    pub income_params: income::IncomeParameters,
 }
 
 impl Budget {
@@ -25,6 +27,8 @@ impl Budget {
         let housing_params = housing::HousingParameters::new();
         let misc_params = misc::MiscParameters::new();
         let tax_params = taxes::TaxParameters::new();
+        let transport_params = transport::TransportParameters::new();
+        let income_params = income::IncomeParameters::new();
         Budget {
             income,
             age,
@@ -33,6 +37,8 @@ impl Budget {
             housing_params,
             misc_params,
             tax_params,
+            transport_params,
+            income_params,
         }
     }
 }

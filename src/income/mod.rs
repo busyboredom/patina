@@ -1,3 +1,3 @@
 pub mod income_parameters;
 
-pub mod income_parameters::IncomeParameters;
+pub use income_parameters::IncomeParameters;
