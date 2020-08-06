@@ -7,3 +7,9 @@ impl FoodParameters {
         FoodParameters {}
     }
 }
+
+impl Default for FoodParameters {
+    fn default() -> Self {
+        FoodParameters::new()
+    }
+}

@@ -1,3 +1,3 @@
-pub mod food;
+pub mod food_parameters;
 
-pub use food::FoodParameters;
+pub use food_parameters::FoodParameters;
