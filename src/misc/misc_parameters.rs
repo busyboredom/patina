@@ -1,5 +1,5 @@
 pub struct MiscParameters {
-    age: i32,
+    pub age: i32,
 }
 
 impl MiscParameters {

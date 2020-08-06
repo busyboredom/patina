@@ -16,26 +16,20 @@ pub struct Budget {
     pub tax_params: taxes::TaxParameters,
     pub transport_params: transport::TransportParameters,
     pub income_params: income::IncomeParameters,
+    pub leisure_params: leisure::LeisureParameters,
 }
 
 impl Budget {
     pub fn new () -> Budget {
-        let food_params = food::FoodParameters::new();
-        let healthcare_params = healthcare::HealthcareParameters::new();
-        let housing_params = housing::HousingParameters::new();
-        let misc_params = misc::MiscParameters::new();
-        let tax_params = taxes::TaxParameters::new();
-        let transport_params = transport::TransportParameters::new();
-        let income_params = income::IncomeParameters::new();
-        
         Budget {
-            food_params,
-            healthcare_params,
-            housing_params,
-            misc_params,
-            tax_params,
-            transport_params,
-            income_params,
+            food_params: food::FoodParameters::new(),
+            healthcare_params: healthcare::HealthcareParameters::new(),
+            housing_params: housing::HousingParameters::new(),
+            misc_params: misc::MiscParameters::new(),
+            tax_params: taxes::TaxParameters::new(),
+            transport_params: transport::TransportParameters::new(),
+            income_params: income::IncomeParameters::new(),
+            leisure_params: leisure::LeisureParameters::new(),
         }
     }
 }
