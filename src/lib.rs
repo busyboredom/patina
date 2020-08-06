@@ -16,7 +16,7 @@ pub struct Budget {
 
 impl Budget {
     pub fn new (income: f64, age: i32) -> Budget {
-        let food_params = food::FoodParameters {};
+        let food_params = food::FoodParameters::new();
         Budget {
             income,
             age,
