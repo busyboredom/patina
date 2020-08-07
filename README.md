@@ -1,7 +1,7 @@
+# WORK IN PROGRESS
+
 # Patina
 A swiss army knife for personal finance.
-
-# WORK IN PROGRESS
 
 Google Sheets and Excel can help you figure out where your finances are at, and they can even tell you a bit about where your finances are going, but these common speadsheets have a weakness:
 
