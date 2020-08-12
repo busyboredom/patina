@@ -17,8 +17,10 @@ Patina aims to be a versatile budget optimization tool for answering tough quest
 
 ## How it works
 
-By default, Patina makes guesses about your financial situation and generates recommendations based on them. To get better recommendations, just give patina better information. For example, Patina assumes a salary of $34,000 per year. If you make $65,000/year, you should tell it that.
+By default, Patina makes guesses about your financial situation and generates recommendations based on them. To get better recommendations, just give patina better information. For example, Patina assumes a salary of $0 per year. If you make $65,000/year, you should tell it that.
 
 ```
-my_budget.income_params.salary = 65_000.00;
+use patina::income::Pay;
+
+my_budget.income_params.jobs[0].pay = Pay::Salary(65_000.00);
 ```
