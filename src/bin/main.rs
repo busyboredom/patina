@@ -15,7 +15,7 @@ fn main() {
     println!("My pay: {}", my_budget.income_params.jobs[0].pay);
     println!("My age: {}", my_budget.misc_params.age);
     println!(
-        "My gross income: {}",
+        "My gross income: ${}",
         my_budget.income_params.c_gross_income.unwrap()
     );
 }
