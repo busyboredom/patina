@@ -13,3 +13,9 @@ keywords = ["finance", "financial", "retirement", "taxes"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[profile.release]
+lto = "fat"
+
+[profile.bench]
+lto = "fat"
