@@ -7,6 +7,7 @@
 # Temporary swap files
 *.swp
 *.swo
+*~
 
 # Added by cargo
 
